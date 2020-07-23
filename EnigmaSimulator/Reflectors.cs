@@ -21,5 +21,7 @@ namespace EnigmaSimulator
             FileDataRaw = File.ReadAllText(@"./Reflector3Config.txt");
             III.SetReflector(FileDataRaw.Split(','));
         }
+
+
     }
 }

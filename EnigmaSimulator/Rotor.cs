@@ -8,6 +8,7 @@ namespace EnigmaSimulator
 {
     public class Rotor
     {
+        #region A-Z
         public char A { get; set; }
         public char B { get; set; }
         public char C { get; set; }
@@ -34,6 +35,7 @@ namespace EnigmaSimulator
         public char X { get; set; }
         public char Y { get; set; }
         public char Z { get; set; }
+        #endregion
 
         public void SetRotor(string[] setting)
         {
@@ -63,6 +65,67 @@ namespace EnigmaSimulator
             this.X = char.Parse(setting[23]);
             this.Y = char.Parse(setting[24]);
             this.Z = char.Parse(setting[25]);
+        }
+
+        public char GetIncr(char c)
+        {
+            switch (c)
+            {
+                case 'A':
+                    return A;
+                case 'B':
+                    return B;
+                case 'C':
+                    return C;
+                case 'D':
+                    return D;
+                case 'E':
+                    return E;
+                case 'F':
+                    return F;
+                case 'G':
+                    return G;
+                case 'H':
+                    return H;
+                case 'I':
+                    return I;
+                case 'J':
+                    return J;
+                case 'K':
+                    return K;
+                case 'L':
+                    return L;
+                case 'M':
+                    return M;
+                case 'N':
+                    return N;
+                case 'O':
+                    return O;
+                case 'P':
+                    return P;
+                case 'Q':
+                    return Q;
+                case 'R':
+                    return R;
+                case 'S':
+                    return S;
+                case 'T':
+                    return T;
+                case 'U':
+                    return U;
+                case 'V':
+                    return V;
+                case 'W':
+                    return W;
+                case 'X':
+                    return X;
+                case 'Y':
+                    return Y;
+                case 'Z':
+                    return Z;
+                default:
+                    return '$';
+            }
         }
     }
 }
