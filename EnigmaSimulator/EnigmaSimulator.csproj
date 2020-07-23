@@ -59,6 +59,7 @@
     <Compile Include="Reflectors.cs" />
     <Compile Include="Rotor.cs" />
     <Compile Include="Rotors.cs" />
+    <Compile Include="SwitchBoard.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

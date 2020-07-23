@@ -28,8 +28,15 @@ namespace EnigmaSimulator
             Rotors.A = Rotors.I;
             Rotors.B = Rotors.III;
             Rotors.C = Rotors.II;
+            Rotors.A.RotorPosittion = 1;
+            Rotors.B.RotorPosittion = 3;
+            Rotors.C.RotorPosittion = 2;
             Reflectors.A = Reflectors.II;
             MessageBox.Show(Rotors.C.GetIncr(Rotors.B.GetIncr(Rotors.A.GetIncr(Reflectors.A.GetIncr(Rotors.A.GetIncr(Rotors.B.GetIncr(Rotors.C.GetIncr(char.Parse(textBox1.Text)))))))).ToString());
+            string str = Rotors.A.GetCurrentConfig();
+            Rotors.A.Rotate(1);
+            string str2 = Rotors.A.GetCurrentConfig();
+            MessageBox.Show($"{str}\n{str2}");
         }
     }
 }

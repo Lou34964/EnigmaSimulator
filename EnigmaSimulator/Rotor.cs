@@ -8,6 +8,8 @@ namespace EnigmaSimulator
 {
     public class Rotor
     {
+        public char PointToFlip = 'Z';
+        public int RotorPosittion = 0;
         #region A-Z
         public char A { get; set; }
         public char B { get; set; }
@@ -160,6 +162,18 @@ namespace EnigmaSimulator
                 Y = Z;
                 Z = temp;
             }
+        }
+
+        public string GetCurrentConfig()
+        {
+            string ret = $"{A}, ";
+            char[] AZ = {  B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y };
+            foreach (char c in AZ)
+            {
+                ret += $"{c}, ";
+            }
+            ret += Z;
+            return ret;
         }
     }
 }
