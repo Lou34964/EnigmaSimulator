@@ -16,5 +16,15 @@ namespace EnigmaSimulator
         {
             InitializeComponent();
         }
+
+        private void SwitchBoardForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SwitchBoardSelect(object sender, EventArgs e)
+        {
+
+        }
     }
 }
