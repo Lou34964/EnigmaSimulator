@@ -9,6 +9,7 @@ namespace EnigmaSimulator
 {
     public static class Reflectors
     {
+        public static Reflector A;
         public static Reflector I = new Reflector();
         public static Reflector II = new Reflector();
         public static Reflector III = new Reflector();

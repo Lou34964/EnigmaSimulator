@@ -1,0 +1,16 @@
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Reflector3Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Reflector2Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Rotor1Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Rotor2Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Reflector1Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\Rotor3Config.txt
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\EnigmaSimulator.exe.config
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\EnigmaSimulator.exe
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\bin\Debug\EnigmaSimulator.pdb
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.csprojAssemblyReference.cache
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.Form1.resources
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.Properties.Resources.resources
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.csproj.GenerateResource.cache
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.csproj.CoreCompileInputs.cache
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.exe
+C:\Users\maple\source\repos\EnigmaSimulator\EnigmaSimulator\obj\Debug\EnigmaSimulator.pdb

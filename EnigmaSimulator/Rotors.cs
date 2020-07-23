@@ -9,6 +9,7 @@ namespace EnigmaSimulator
 {
     public static class Rotors
     {
+        public static Rotor A , B, C;
         public static Rotor I = new Rotor();
         public static Rotor II = new Rotor();
         public static Rotor III = new Rotor();
