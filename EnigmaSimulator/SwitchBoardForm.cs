@@ -24,7 +24,25 @@ namespace EnigmaSimulator
 
         private void SwitchBoardSelect(object sender, EventArgs e)
         {
+            if (tb1.Text != "")
+            {
+                tb1.Text = (sender as Label).Text;
+                
+            }
+            else
+            {
+                tb2.Text = (sender as Label).Text;
+            }
+        }
 
+        private void BtnReset_Click(object sender, EventArgs e)
+        {
+            tb1.Text = "";
+            tb2.Text = "";
+            foreach(Label l in this.Controls.OfType<Label>())
+            {
+                l.Visible = true;
+            }
         }
     }
 }

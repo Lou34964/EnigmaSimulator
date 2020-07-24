@@ -28,420 +28,421 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblCharA = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.LA = new System.Windows.Forms.Label();
+            this.LB = new System.Windows.Forms.Label();
+            this.LC = new System.Windows.Forms.Label();
+            this.LF = new System.Windows.Forms.Label();
+            this.LE = new System.Windows.Forms.Label();
+            this.LD = new System.Windows.Forms.Label();
+            this.LI = new System.Windows.Forms.Label();
+            this.LH = new System.Windows.Forms.Label();
+            this.LG = new System.Windows.Forms.Label();
+            this.LL = new System.Windows.Forms.Label();
+            this.LK = new System.Windows.Forms.Label();
+            this.LJ = new System.Windows.Forms.Label();
+            this.LP = new System.Windows.Forms.Label();
+            this.LO = new System.Windows.Forms.Label();
+            this.LN = new System.Windows.Forms.Label();
+            this.LS = new System.Windows.Forms.Label();
+            this.LR = new System.Windows.Forms.Label();
+            this.LQ = new System.Windows.Forms.Label();
+            this.LV = new System.Windows.Forms.Label();
+            this.LU = new System.Windows.Forms.Label();
+            this.LT = new System.Windows.Forms.Label();
+            this.LY = new System.Windows.Forms.Label();
+            this.LX = new System.Windows.Forms.Label();
+            this.LW = new System.Windows.Forms.Label();
+            this.LZ = new System.Windows.Forms.Label();
+            this.LM = new System.Windows.Forms.Label();
+            this.BtnClose = new System.Windows.Forms.Button();
+            this.BtnReset = new System.Windows.Forms.Button();
             this.tb1 = new System.Windows.Forms.TextBox();
             this.tb2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // LblCharA
+            // LA
             // 
-            this.LblCharA.AutoSize = true;
-            this.LblCharA.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.LblCharA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblCharA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCharA.Location = new System.Drawing.Point(44, 41);
-            this.LblCharA.MinimumSize = new System.Drawing.Size(22, 22);
-            this.LblCharA.Name = "LblCharA";
-            this.LblCharA.Size = new System.Drawing.Size(22, 22);
-            this.LblCharA.TabIndex = 0;
-            this.LblCharA.Text = "A";
-            this.LblCharA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblCharA.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LA.AutoSize = true;
+            this.LA.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.LA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LA.Location = new System.Drawing.Point(44, 41);
+            this.LA.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LA.Name = "LA";
+            this.LA.Size = new System.Drawing.Size(22, 22);
+            this.LA.TabIndex = 0;
+            this.LA.Text = "A";
+            this.LA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LA.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label1
+            // LB
             // 
-            this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(72, 41);
-            this.label1.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 22);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "B";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LB.AutoSize = true;
+            this.LB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB.Location = new System.Drawing.Point(72, 41);
+            this.LB.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LB.Name = "LB";
+            this.LB.Size = new System.Drawing.Size(22, 22);
+            this.LB.TabIndex = 1;
+            this.LB.Text = "B";
+            this.LB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LB.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label2
+            // LC
             // 
-            this.label2.AutoSize = true;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(100, 41);
-            this.label2.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 22);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "C";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LC.AutoSize = true;
+            this.LC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LC.Location = new System.Drawing.Point(100, 41);
+            this.LC.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LC.Name = "LC";
+            this.LC.Size = new System.Drawing.Size(22, 22);
+            this.LC.TabIndex = 2;
+            this.LC.Text = "C";
+            this.LC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LC.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label3
+            // LF
             // 
-            this.label3.AutoSize = true;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(184, 41);
-            this.label3.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 22);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "F";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LF.AutoSize = true;
+            this.LF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LF.Location = new System.Drawing.Point(184, 41);
+            this.LF.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LF.Name = "LF";
+            this.LF.Size = new System.Drawing.Size(22, 22);
+            this.LF.TabIndex = 5;
+            this.LF.Text = "F";
+            this.LF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LF.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label4
+            // LE
             // 
-            this.label4.AutoSize = true;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(156, 41);
-            this.label4.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 22);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "E";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LE.AutoSize = true;
+            this.LE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LE.Location = new System.Drawing.Point(156, 41);
+            this.LE.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LE.Name = "LE";
+            this.LE.Size = new System.Drawing.Size(22, 22);
+            this.LE.TabIndex = 4;
+            this.LE.Text = "E";
+            this.LE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LE.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label5
+            // LD
             // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(128, 41);
-            this.label5.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 22);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "D";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LD.AutoSize = true;
+            this.LD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LD.Location = new System.Drawing.Point(128, 41);
+            this.LD.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LD.Name = "LD";
+            this.LD.Size = new System.Drawing.Size(23, 22);
+            this.LD.TabIndex = 3;
+            this.LD.Text = "D";
+            this.LD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LD.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label6
+            // LI
             // 
-            this.label6.AutoSize = true;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(268, 41);
-            this.label6.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 22);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "I";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LI.AutoSize = true;
+            this.LI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LI.Location = new System.Drawing.Point(268, 41);
+            this.LI.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LI.Name = "LI";
+            this.LI.Size = new System.Drawing.Size(22, 22);
+            this.LI.TabIndex = 8;
+            this.LI.Text = "I";
+            this.LI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LI.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label7
+            // LH
             // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(240, 41);
-            this.label7.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 22);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "H";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LH.AutoSize = true;
+            this.LH.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LH.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LH.Location = new System.Drawing.Point(240, 41);
+            this.LH.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LH.Name = "LH";
+            this.LH.Size = new System.Drawing.Size(23, 22);
+            this.LH.TabIndex = 7;
+            this.LH.Text = "H";
+            this.LH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LH.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label8
+            // LG
             // 
-            this.label8.AutoSize = true;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(212, 41);
-            this.label8.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(24, 22);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "G";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LG.AutoSize = true;
+            this.LG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LG.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LG.Location = new System.Drawing.Point(212, 41);
+            this.LG.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LG.Name = "LG";
+            this.LG.Size = new System.Drawing.Size(24, 22);
+            this.LG.TabIndex = 6;
+            this.LG.Text = "G";
+            this.LG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LG.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label9
+            // LL
             // 
-            this.label9.AutoSize = true;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(352, 41);
-            this.label9.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(22, 22);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "L";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LL.AutoSize = true;
+            this.LL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LL.Location = new System.Drawing.Point(352, 41);
+            this.LL.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LL.Name = "LL";
+            this.LL.Size = new System.Drawing.Size(22, 22);
+            this.LL.TabIndex = 11;
+            this.LL.Text = "L";
+            this.LL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LL.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label10
+            // LK
             // 
-            this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(324, 41);
-            this.label10.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(22, 22);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "K";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label10.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LK.AutoSize = true;
+            this.LK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LK.Location = new System.Drawing.Point(324, 41);
+            this.LK.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LK.Name = "LK";
+            this.LK.Size = new System.Drawing.Size(22, 22);
+            this.LK.TabIndex = 10;
+            this.LK.Text = "K";
+            this.LK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LK.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label11
+            // LJ
             // 
-            this.label11.AutoSize = true;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(296, 41);
-            this.label11.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(22, 22);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "J";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LJ.AutoSize = true;
+            this.LJ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LJ.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LJ.Location = new System.Drawing.Point(296, 41);
+            this.LJ.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LJ.Name = "LJ";
+            this.LJ.Size = new System.Drawing.Size(22, 22);
+            this.LJ.TabIndex = 9;
+            this.LJ.Text = "J";
+            this.LJ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LJ.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label12
+            // LP
             // 
-            this.label12.AutoSize = true;
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(100, 79);
-            this.label12.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(22, 22);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "P";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LP.AutoSize = true;
+            this.LP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LP.Location = new System.Drawing.Point(100, 79);
+            this.LP.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LP.Name = "LP";
+            this.LP.Size = new System.Drawing.Size(22, 22);
+            this.LP.TabIndex = 14;
+            this.LP.Text = "P";
+            this.LP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LP.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label13
+            // LO
             // 
-            this.label13.AutoSize = true;
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(72, 79);
-            this.label13.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(23, 22);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "O";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label13.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LO.AutoSize = true;
+            this.LO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LO.Location = new System.Drawing.Point(72, 79);
+            this.LO.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LO.Name = "LO";
+            this.LO.Size = new System.Drawing.Size(23, 22);
+            this.LO.TabIndex = 13;
+            this.LO.Text = "O";
+            this.LO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LO.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label14
+            // LN
             // 
-            this.label14.AutoSize = true;
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(44, 79);
-            this.label14.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 22);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "N";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label14.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LN.AutoSize = true;
+            this.LN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LN.Location = new System.Drawing.Point(44, 79);
+            this.LN.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LN.Name = "LN";
+            this.LN.Size = new System.Drawing.Size(22, 22);
+            this.LN.TabIndex = 12;
+            this.LN.Text = "N";
+            this.LN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LN.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label15
+            // LS
             // 
-            this.label15.AutoSize = true;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(184, 79);
-            this.label15.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(22, 22);
-            this.label15.TabIndex = 17;
-            this.label15.Text = "S";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label15.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LS.AutoSize = true;
+            this.LS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LS.Location = new System.Drawing.Point(184, 79);
+            this.LS.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LS.Name = "LS";
+            this.LS.Size = new System.Drawing.Size(22, 22);
+            this.LS.TabIndex = 17;
+            this.LS.Text = "S";
+            this.LS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LS.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label16
+            // LR
             // 
-            this.label16.AutoSize = true;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(156, 79);
-            this.label16.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(23, 22);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "R";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label16.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LR.AutoSize = true;
+            this.LR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LR.Location = new System.Drawing.Point(156, 79);
+            this.LR.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LR.Name = "LR";
+            this.LR.Size = new System.Drawing.Size(23, 22);
+            this.LR.TabIndex = 16;
+            this.LR.Text = "R";
+            this.LR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LR.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label17
+            // LQ
             // 
-            this.label17.AutoSize = true;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(128, 79);
-            this.label17.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(23, 22);
-            this.label17.TabIndex = 15;
-            this.label17.Text = "Q";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label17.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LQ.AutoSize = true;
+            this.LQ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LQ.Location = new System.Drawing.Point(128, 79);
+            this.LQ.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LQ.Name = "LQ";
+            this.LQ.Size = new System.Drawing.Size(23, 22);
+            this.LQ.TabIndex = 15;
+            this.LQ.Text = "Q";
+            this.LQ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LQ.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label18
+            // LV
             // 
-            this.label18.AutoSize = true;
-            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(268, 79);
-            this.label18.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(22, 22);
-            this.label18.TabIndex = 20;
-            this.label18.Text = "V";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label18.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LV.AutoSize = true;
+            this.LV.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LV.Location = new System.Drawing.Point(268, 79);
+            this.LV.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LV.Name = "LV";
+            this.LV.Size = new System.Drawing.Size(22, 22);
+            this.LV.TabIndex = 20;
+            this.LV.Text = "V";
+            this.LV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LV.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label19
+            // LU
             // 
-            this.label19.AutoSize = true;
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(240, 79);
-            this.label19.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(23, 22);
-            this.label19.TabIndex = 19;
-            this.label19.Text = "U";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label19.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LU.AutoSize = true;
+            this.LU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LU.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LU.Location = new System.Drawing.Point(240, 79);
+            this.LU.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LU.Name = "LU";
+            this.LU.Size = new System.Drawing.Size(23, 22);
+            this.LU.TabIndex = 19;
+            this.LU.Text = "U";
+            this.LU.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LU.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label20
+            // LT
             // 
-            this.label20.AutoSize = true;
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(212, 79);
-            this.label20.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(22, 22);
-            this.label20.TabIndex = 18;
-            this.label20.Text = "T";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label20.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LT.AutoSize = true;
+            this.LT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LT.Location = new System.Drawing.Point(212, 79);
+            this.LT.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LT.Name = "LT";
+            this.LT.Size = new System.Drawing.Size(22, 22);
+            this.LT.TabIndex = 18;
+            this.LT.Text = "T";
+            this.LT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LT.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label21
+            // LY
             // 
-            this.label21.AutoSize = true;
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(352, 79);
-            this.label21.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(22, 22);
-            this.label21.TabIndex = 23;
-            this.label21.Text = "Y";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label21.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LY.AutoSize = true;
+            this.LY.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LY.Location = new System.Drawing.Point(352, 79);
+            this.LY.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LY.Name = "LY";
+            this.LY.Size = new System.Drawing.Size(22, 22);
+            this.LY.TabIndex = 23;
+            this.LY.Text = "Y";
+            this.LY.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LY.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label22
+            // LX
             // 
-            this.label22.AutoSize = true;
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(324, 79);
-            this.label22.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(22, 22);
-            this.label22.TabIndex = 22;
-            this.label22.Text = "X";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label22.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LX.AutoSize = true;
+            this.LX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LX.Location = new System.Drawing.Point(324, 79);
+            this.LX.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LX.Name = "LX";
+            this.LX.Size = new System.Drawing.Size(22, 22);
+            this.LX.TabIndex = 22;
+            this.LX.Text = "X";
+            this.LX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LX.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label23
+            // LW
             // 
-            this.label23.AutoSize = true;
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(296, 79);
-            this.label23.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(26, 22);
-            this.label23.TabIndex = 21;
-            this.label23.Text = "W";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label23.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LW.AutoSize = true;
+            this.LW.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LW.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LW.Location = new System.Drawing.Point(296, 79);
+            this.LW.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LW.Name = "LW";
+            this.LW.Size = new System.Drawing.Size(26, 22);
+            this.LW.TabIndex = 21;
+            this.LW.Text = "W";
+            this.LW.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LW.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label25
+            // LZ
             // 
-            this.label25.AutoSize = true;
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(380, 79);
-            this.label25.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(22, 22);
-            this.label25.TabIndex = 25;
-            this.label25.Text = "Z";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label25.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LZ.AutoSize = true;
+            this.LZ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LZ.Location = new System.Drawing.Point(380, 79);
+            this.LZ.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LZ.Name = "LZ";
+            this.LZ.Size = new System.Drawing.Size(22, 22);
+            this.LZ.TabIndex = 25;
+            this.LZ.Text = "Z";
+            this.LZ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LZ.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // label26
+            // LM
             // 
-            this.label26.AutoSize = true;
-            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(380, 41);
-            this.label26.MinimumSize = new System.Drawing.Size(22, 22);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(24, 22);
-            this.label26.TabIndex = 24;
-            this.label26.Text = "M";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label26.Click += new System.EventHandler(this.SwitchBoardSelect);
+            this.LM.AutoSize = true;
+            this.LM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LM.Location = new System.Drawing.Point(380, 41);
+            this.LM.MinimumSize = new System.Drawing.Size(22, 22);
+            this.LM.Name = "LM";
+            this.LM.Size = new System.Drawing.Size(24, 22);
+            this.LM.TabIndex = 24;
+            this.LM.Text = "M";
+            this.LM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LM.Click += new System.EventHandler(this.SwitchBoardSelect);
             // 
-            // button1
+            // BtnClose
             // 
-            this.button1.Location = new System.Drawing.Point(134, 152);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Close";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnClose.Location = new System.Drawing.Point(134, 152);
+            this.BtnClose.Name = "BtnClose";
+            this.BtnClose.Size = new System.Drawing.Size(75, 23);
+            this.BtnClose.TabIndex = 26;
+            this.BtnClose.Text = "Close";
+            this.BtnClose.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // BtnReset
             // 
-            this.button2.Location = new System.Drawing.Point(215, 152);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnReset.Location = new System.Drawing.Point(215, 152);
+            this.BtnReset.Name = "BtnReset";
+            this.BtnReset.Size = new System.Drawing.Size(75, 23);
+            this.BtnReset.TabIndex = 27;
+            this.BtnReset.Text = "Reset";
+            this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // tb1
             // 
@@ -465,34 +466,34 @@
             this.ClientSize = new System.Drawing.Size(448, 211);
             this.Controls.Add(this.tb2);
             this.Controls.Add(this.tb1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblCharA);
+            this.Controls.Add(this.BtnReset);
+            this.Controls.Add(this.BtnClose);
+            this.Controls.Add(this.LZ);
+            this.Controls.Add(this.LM);
+            this.Controls.Add(this.LY);
+            this.Controls.Add(this.LX);
+            this.Controls.Add(this.LW);
+            this.Controls.Add(this.LV);
+            this.Controls.Add(this.LU);
+            this.Controls.Add(this.LT);
+            this.Controls.Add(this.LS);
+            this.Controls.Add(this.LR);
+            this.Controls.Add(this.LQ);
+            this.Controls.Add(this.LP);
+            this.Controls.Add(this.LO);
+            this.Controls.Add(this.LN);
+            this.Controls.Add(this.LL);
+            this.Controls.Add(this.LK);
+            this.Controls.Add(this.LJ);
+            this.Controls.Add(this.LI);
+            this.Controls.Add(this.LH);
+            this.Controls.Add(this.LG);
+            this.Controls.Add(this.LF);
+            this.Controls.Add(this.LE);
+            this.Controls.Add(this.LD);
+            this.Controls.Add(this.LC);
+            this.Controls.Add(this.LB);
+            this.Controls.Add(this.LA);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SwitchBoardForm";
             this.Text = "SwitchBoardForm";
@@ -504,34 +505,34 @@
 
         #endregion
 
-        private System.Windows.Forms.Label LblCharA;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label LA;
+        private System.Windows.Forms.Label LB;
+        private System.Windows.Forms.Label LC;
+        private System.Windows.Forms.Label LF;
+        private System.Windows.Forms.Label LE;
+        private System.Windows.Forms.Label LD;
+        private System.Windows.Forms.Label LI;
+        private System.Windows.Forms.Label LH;
+        private System.Windows.Forms.Label LG;
+        private System.Windows.Forms.Label LL;
+        private System.Windows.Forms.Label LK;
+        private System.Windows.Forms.Label LJ;
+        private System.Windows.Forms.Label LP;
+        private System.Windows.Forms.Label LO;
+        private System.Windows.Forms.Label LN;
+        private System.Windows.Forms.Label LS;
+        private System.Windows.Forms.Label LR;
+        private System.Windows.Forms.Label LQ;
+        private System.Windows.Forms.Label LV;
+        private System.Windows.Forms.Label LU;
+        private System.Windows.Forms.Label LT;
+        private System.Windows.Forms.Label LY;
+        private System.Windows.Forms.Label LX;
+        private System.Windows.Forms.Label LW;
+        private System.Windows.Forms.Label LZ;
+        private System.Windows.Forms.Label LM;
+        private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.Button BtnReset;
         private System.Windows.Forms.TextBox tb1;
         private System.Windows.Forms.TextBox tb2;
     }
