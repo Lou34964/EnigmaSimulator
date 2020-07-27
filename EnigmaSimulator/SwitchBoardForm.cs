@@ -19,7 +19,9 @@ namespace EnigmaSimulator
 
         private void SwitchBoardForm_Load(object sender, EventArgs e)
         {
-            //taco
+            //load current config
+                //get A-Z setting
+                //determine if a-z needs vissable or not
         }
 
         private void SwitchBoardSelect(object sender, EventArgs e)
